@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <script src="contador.js" defer></script>
+        <title>contador</title>
+    </head>
+    <body>
+        <main>
+            <article class="cron-menu">
+                <div class="cron">
+                    <label for="date">INFORME UM DATA</label>
+                    <input type="datetime-local" id="date" value="">
+                </div>
+                <div class="buttons">
+                    <button id="btniniciar">START</button>
+                    <button id="btnstop">STOP</button>
+                </div>
+            </article>
+            <article class="cron">
+                <div class="title">
+                    <p>CONTADOR</p>
+                    <button id="btnreinciar">RESTART</button>
+                </div>
+                <h2 class="faltam">Faltam</h2>
+                <div class="time">
+                    <div class="times-temp">
+                        <p id="days">-</p>
+                        <span>Dias</span>
+                    </div>
+                    <div class="times-temp">
+                        <p id="hours">-</p>
+                        <span>Horas</span>
+                    </div>
+                    <div class="times-temp">
+                        <p id="minutes">-</p>
+                        <span>Minutos</span>
+                    </div>
+                    <div class="times-temp">
+                        <p id="secunds">-</p>
+                        <span>Segundos</span>
+                    </div>
+                </div>
+            </article>
+        </main>
+    </body>
+</html>
